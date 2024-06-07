@@ -40,7 +40,7 @@ class Control:
     def pow(self, a, b):
         try:
            if (a==0):
-                raise Exception("Base Error")
+                raise Exception("Base Error!!!")
             
         except Exception as e:
             return e
