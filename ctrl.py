@@ -59,3 +59,13 @@ class Control:
             return e
         
         return pow(a, b)   
+
+    def mod(self, a, b):
+        try:
+            if(b==0):
+                raise Exception("Divisor Error")
+            
+        except Exception as e:
+            return e
+        
+        return a%b
